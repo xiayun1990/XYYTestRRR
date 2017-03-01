@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "XYYTestRRR"
   s.version      = "1.0.0"
-  s.summary      = XYunYun XYYTestRRR."
+  s.summary      = "A of XYYTestRRR."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-"XYunYun test of XYYTestRRR   XYunYun First "
+A of XYYTestRRR.dkdkdkdkdkkdkd
                    DESC
 
   s.homepage     = "http://https://github.com/xiayun1990/XYYTestRRR"
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = Apache License, Version 2.0"
+  s.license      = "Apache License, Version 2.0"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/xiayun1990/XYYTestRRR.git", :tag => "#{s.version}" }
+  s.source       = { :git => https://github.com/xiayun1990/XYYTestRRR.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Classes", "git回顾/Classes/**/*.{h,m}"
-#s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -130,7 +130,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.requires_arc = true
+s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
